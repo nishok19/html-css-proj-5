@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  list-style: none;
+}
+
+/* ////////////////// */
+/* navbar section */
+/* ////////////////// */
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.grow-list {
+  display: flex;
+  width: 100%;
+  margin: auto auto auto 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  padding: 0 4rem;
+  font-size: 15px;
+}
+
+.navbar img {
+  width: 90px;
+}
+
+.line {
+  border: 1px solid #9f9f9f;
+  margin: 0 0 0 4rem;
+}
+
+.button-small {
+  background-color: #ba0cc5;
+  color: #fff;
+  width: max-content;
+  font-size: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 7px;
+}
+
+.list-item:nth-child(1) img {
+  width: 10px;
+}
+
+/* ////////////////// */
+/* hero section */
+/* ////////////////// */
+
+.hero {
+  height: 90vh;
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 91vh;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  display: flex;
+  font-size: 80px;
+  margin: 0 28rem;
+  text-align: center;
+  margin-top: -16rem;
+}
+
+.hero-description {
+  font-size: 25px;
+  margin-top: 1.5rem;
+}
+
+.button-large {
+  background-color: #ba0cc5;
+  color: #fff;
+  font-size: 25px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 3rem;
+}
