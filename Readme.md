@@ -6,6 +6,8 @@
 
 This is the fifth project in the HTML and CSS class. I have learnt how to position background image and fit them perfectly.
 
+## [Project Live Link](https://github.com/nishok19/html-css-proj-5)
+
 ## Efforts
 
 This project took around 2 hours to build. Designing the headings and navbar took most of the time
